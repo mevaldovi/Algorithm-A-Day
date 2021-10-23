@@ -1,5 +1,5 @@
-const ar = [2, 3, 5, 4, 5, 3, 4];
-const n = ar.length;
+const array = [2, 3, 5, 4, 5, 3, 4];
+const n = array.length;
 
 function findSingle(ar, ar_size)
     {
@@ -11,4 +11,4 @@ function findSingle(ar, ar_size)
         return res;
     }
         console.log("Element occurring once is "
-            + findSingle(ar, n));
+            + findSingle(array, n));
