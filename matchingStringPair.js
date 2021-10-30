@@ -4,59 +4,16 @@
 //    Write a function that validates a string full of parenthesis, 
 //    validating that each open parenthesis has a matching closed
 //    parenthesis, and vice versa
+
 //   Examples:
-//	  Input: '()'
-//	 Output: true
-//	  Input: '((()())())'
-//	 Output: true
-//	  Input: '())('
-//	 Output: false
-//	  Input: '(()'
-//	 Output: false
-//	  Input: ')('
-//	 Output: false
-//	  Input: '())(()'
-//	 Output: false
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// ---------------------- WARNING ANSWER DOWN BELOW --------------------------------  
-
-
-
-
-
-
-
-
-
+//	  Input: '()'	 Output: true
+//	  Input: '((()())())' Output: true
+//	  Input: '())(' Output: false
+//	  Input: '(()' Output: false
+//	  Input: ')(' Output: false
+//	  Input: '())(()' Output: false
 let stringTest = '()()(())'; // returns true
-// let stringTest = '()()(()))'; // returns false
+let stringTest2 = '()()(()))'; // returns false
 
 matchingPair = (string) => {
     const open = '(';
@@ -85,3 +42,34 @@ matchingPair = (string) => {
     }
 }
 console.log('is it a matching pair? ' + matchingPair(stringTest));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
