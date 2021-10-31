@@ -1,0 +1,13 @@
+
+li:nth-child(n){
+    content: "1";
+}
+
+li:nth-child(2n){
+    content: n + 1;
+}
+
+li:nth-child(3n){
+    content: "fizz";
+    color: teal;
+}
