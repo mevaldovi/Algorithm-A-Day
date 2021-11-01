@@ -1,4 +1,7 @@
 # Algorithm-A-Day
+
+<img width="521" alt="number-of-Xs" src="https://user-images.githubusercontent.com/83307023/139733049-eb55f962-b591-43df-8e8d-874c4d4afb89.png">
+
 ### solving an algorithm a day to stay sharp and making coding fun!
 
 ### open the sandbox.html in your browser and open the console.html
