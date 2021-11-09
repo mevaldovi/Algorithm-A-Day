@@ -5,6 +5,7 @@ const newArray = array.sort(function(a, b){return a - b});
 
 const maxNum = function(arr){
     console.log(arr[arr.length - 1]);
-    //^aka saying "log the array's length (which is 6) and subtract one to get the maximum number of index positions in array"
+    //^aka saying "log the array's length (which is 6) and subtract one to get 
+    //the maximum number of index positions in array"
 };
 maxNum(newArray);

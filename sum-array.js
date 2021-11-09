@@ -6,12 +6,14 @@ let sum = 0;
 
 const sumArray = function(arr){
     for (i=0; i<arr.length; i++){
+        var currentNum = arr[i];
         //console each number's index POSITION in the array
-        sum += arr[i];
+        sum += currentNum;
         // return total;
     }
     console.log(sum);    
 }
 sumArray(array);
 
-//NOTE: += is simply shorthand for adding two variables to each other and then storing the result
+//NOTE: += is simply shorthand for adding two variables to each other and 
+//then storing the result
