@@ -18,3 +18,4 @@ var maxProfit = function (prices) {
   }
 };
 maxProfit(arrayInt);
+//NOTE: If you put the smallest number at the very end of the array as the final element, this will not work.
