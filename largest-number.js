@@ -10,11 +10,10 @@ function solution(N) {
 
     for(i=0; i < largest.length; i++){
         let element = +largest[i]
-        
-        // console.log(element)
-    //     if (element[i] >= element[i+1]){
-    //         console.log(i)
-    // }
+        console.log(element)
+        if (element[i] >= element[i+1]){
+            console.log(i)
+    }
 }
 }
 solution(array);
@@ -25,4 +24,3 @@ solution(array);
 //["0", "2", "1", "4", "7", "4", "8", "3", "6", "4", "7"]
 
 
-  
