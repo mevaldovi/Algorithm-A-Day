@@ -1,19 +1,21 @@
 // TODO: Write a function that takes an array of integers containing exactly one peak.
 // A peak is defined as a location in the array where the value is greater than every number to the left and every number to the right. 
 //Return the value found at the array's peak
-const array = [1, 3, 50, 5, 5, 3, 1]
-let mid = Math.floor(array.length*0.5);
 
-const peakFinder = function(arr) {
-    console.log(mid)
-    //if statement
-        if (array[mid+1]>array[mid]){
-            console.log(peakFinder(array.slice(mid+1)));
-        } else if (array[mid-1]>array[mid]){
-            let newArray = array.reverse().slice(mid+1).reverse()
-            console.log(peakFinder(newArray))
-        } else{
-            console.log(array[mid])
+const array = [1, 3, 50, 500, 5, 3, 1]
+function peakElement(arr){
+    let n = arr.length;
+    let left = 0;
+    let right = n-1;
+
+    while(left<right){
+        let mid = Math.floor(left+(right-left)/2)
+        if(arr[mid]<arr[mid+1]){
+            left = mid + 1;
+        } else {
+            right = mid;
         }
-    };
-  peakFinder(array);
+    }
+    console.log(`Peak found at index:${left}`)
+}
+peakElement(array);
