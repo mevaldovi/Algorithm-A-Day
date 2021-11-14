@@ -7,13 +7,8 @@ const test3 = 'racecar';//true
 
 const palindrome = (str) => {
     const split = str.split('');
-    // const join1 = split.join('');
     const reversed = split.reverse('');
     const join2 = reversed.join('');
-
-    // if (split === reversed){
-    //     console.log('true');
-    // }
 
     if (str === join2){
         console.log('true');
