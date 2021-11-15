@@ -1,3 +1,6 @@
+// Write a function that takes in two sorted arrays and returns a pair of numbers 
+//(one from each array) with the smallest difference
+
 const array1 = [0, 2, 5, 7, 9];
 const array2 = [0.2, 4, 10, 11, 13]; //output: 0, 0.2 (smallest difference)
 
