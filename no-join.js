@@ -4,22 +4,18 @@
 // Return the new array
 // Solve without joining the digits array and modify the original array in place
 
-const array = [1,0,0]//representing number 100
-var addOneNow = true;
+const test = [1,2,9]
+ var plusOne = function(digits){
+     const len = digits.length;
 
-var plusOne = function(digits) {
-    while (let i = 0; i = digits.length - 1; i--){
-        
-        if (digits[i] < 9){
-            digits[i]++;
-            console.log(digits);
-        } else {
-            digits[i] = 0;
-        }
-    }
-        if (addOneNow){
-            digits.unshift(1)
-        }
-        console.log(digits)
-    }
-plusOne(array)
+     if(len === 0){
+         return 1;
+     }
+     let last = len - 1;
+
+     if(digits[last] === 9){
+        console.log(plusOne(digits.slice(0, last)).concat([0]));
+     }
+     console.log(digits.slice(0, last).concat([digits[last] + 1]));
+ }
+ plusOne(test);
