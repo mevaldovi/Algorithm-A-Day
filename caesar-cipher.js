@@ -1,25 +1,20 @@
-// Write a function that takes in a string and and an offset and 
+// Write a function that takes in a string and and an offset and
 //returns a new string with each character moved by the offset
-const string = "hello world";
-const alphabet = "abcdefghijklmnopqrstuvwxyz"
+var str1 = "GeeksforGeeks";
+var str2 = "hellomynameisMarie";
 
-var caesarCipher = function(str, offset) {
-    let sortedA = alphabet.split().sort(function(a,b){return a - b});
-    let sortedS = string.split().sort(function(a,b){return a - b});
-    let decipher = [];
-    
-    for (i=0; i < sortedS.length; i++){
-        for(j=0; j < sortedA.length; j++){
-            if (sortedS[i] = sortedA[j]){
-                decipher.push(sortedA[j]+ offset)
-                console.log(decipher)
-            }
+function leftrotate(str, d) {//takes in a string and a d, representing the number of units to shift
+  var ans = str.substring(d, str.length) + str.substring(0, d);//
+  return ans;
+}
 
-        }
-        }
-        
-        
-       
-    
-    }
-caesarCipher(string, 1);
+// Function that rotates s towards right by d
+function rightrotate(str, d) {
+  return leftrotate(str, str.length - d);
+}
+
+
+console.log(leftrotate(str1, 2));
+console.log(rightrotate(str2, 2));
+
+//key to solving this algo: utilize substring() method
