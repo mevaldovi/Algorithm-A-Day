@@ -11,6 +11,7 @@ const arraySearchForX = function(arr) {
 
     for (let i = 0; i < arr.length; i++) {
         const arrIndex = arr[i];
+        console.log(arr[i]);//details: see printing of each element in string
         
         if(arrIndex.includes("X")){
             count++;

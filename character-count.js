@@ -18,8 +18,8 @@ var characterCount = function (str) {
         // and you need to loop through more than once, exit.
         break;
       }
-      if (str[i] == str[j]) {//if the two strings are the same length, add to count.
-        count++;
+      if (str[i] == str[j]) {//if the two strings are the same length, 
+        count++;//add to count
       }
     }
     if (count > 0) {
