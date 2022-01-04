@@ -2,7 +2,7 @@ const stringTest = 'einstein dalmau guerra';
 //output should be 10
 
 countVowls = (letters) => {
-    // convert this string to an array 
+    // convert this string to an array using split method
     const lettersArray = letters.split('');
     // compare letters to vowels array
     const vowelsArray = ['a', 'e', 'i', 'o', 'u'];
