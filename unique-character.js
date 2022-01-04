@@ -3,6 +3,7 @@
 const alphaString = "aabbccddeffgghh"//ouput: "e" 
 //check for unique character 
 function checkForUnique(str){
+    var count = 0; //create count variable
     const splitAlphaStr = str.split(" "); //split each character into array element
     //for loop through split string
     for (let i = 0; i < splitAlphaStr.length; i++) {
