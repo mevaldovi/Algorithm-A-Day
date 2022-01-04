@@ -4,14 +4,13 @@ const alphaString = "aabbccddeffgghh"; //ouput: "e"
 //check for unique character
 function checkForUnique(str) {
   var count = 0; //create count variable
-  const splitAlphaStr = str.split(" "); //split each character into array element
   //for loop through split string
   for (let i = 0; i < str.length; i++) {
     const element = str[i]; //targets each element
-    if (splitAlphaStr[i] !== str[i]) {
+    if (count[str[i]] == 1) {//if an element does not repeat twice
       count++;
+      console.log("this character  " + str[i] + "  is unique");
     }
   }
-  console.log("this character  " + count + "  is unique");
 }
 checkForUnique(alphaString);
