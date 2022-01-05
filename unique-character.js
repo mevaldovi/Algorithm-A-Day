@@ -3,10 +3,10 @@
 const alphaString = "aabbccddeffgghh"; //ouput: "e"
 //check for unique character
 function checkForUnique(str) {
-  var count = {}; //create count variable; object to take in each character & keep track of how often it occurs
-  var char = str[i];//stores each element in the string
+  var charCount = {}; //create count variable; object to take in each character & keep track of how often it occurs
   //loop through entre string
   for (let i = 0; i < str.length; i++) {
+    var char = str[i];//stores each element in the string
     if (charCount[char]){
       charCount[char]++;
     } else {
@@ -15,10 +15,12 @@ function checkForUnique(str) {
   }
   for(var j in charCount){
     if(charCount[j]==1){
-      return j;
+      console.log(j);
     }
   }
 }
+checkForUnique(alphaString);
+
 
 
     
