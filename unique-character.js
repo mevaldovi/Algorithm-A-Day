@@ -1,6 +1,7 @@
 //write a function that takes in a string and outputs the first
 // occurence of a character that does NOT repeat itself in the string
 const alphaString = "aabbccddeffgghh"; //ouput: "e"
+const introString = "hello my name is Marie and I am twenty-three years old"//output: "w"
 //check for unique character
 function checkForUnique(str) {
   var charCount = {}; //create count variable; object to take in each character & keep track of how often it occurs
@@ -22,7 +23,7 @@ function checkForUnique(str) {
     }
   }
 }
-checkForUnique(alphaString);
+checkForUnique(introString);
 
 
 
