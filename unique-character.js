@@ -13,13 +13,12 @@ function checkForUnique(str) {
       charCount[char] = 1;
     }
   }
-
-
-    const element = str[i]; //targets each element
-    if (count[str[i]]) {//if an element does not repeat twice
-      count++;
-      console.log("this character  " + count[str[i]] + "  is unique");
+  for(var j in charCount){
+    if(charCount[j]==1){
+      return j;
     }
   }
 }
-checkForUnique(alphaString);
+
+
+    
