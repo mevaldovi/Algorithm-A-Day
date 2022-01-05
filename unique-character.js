@@ -7,14 +7,17 @@ function checkForUnique(str) {
   //loop through entre string
   for (let i = 0; i < str.length; i++) {
     var char = str[i];//stores each element in the string
-    if (charCount[char]){
-      charCount[char]++;
+    if (charCount[char]){//if any characters exist
+      charCount[char]++;//keep looping through and add all characters to object for storage
     } else {
-      charCount[char] = 1;
+      charCount[char] = 1;//else assume there's only one character in the string
     }
   }
+  //loop through targeting each individual character in charCount
   for(var j in charCount){
+    //if any character occurs only once
     if(charCount[j]==1){
+      //log it to the console
       console.log(j);
     }
   }
