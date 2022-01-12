@@ -4,12 +4,26 @@
 
 ### Solving an algorithm a day to stay sharp and making coding fun!
 
-# Clone down this repo
+# Usage
+- No dependencies
 
-## Open the a-sandbox.html in your browser
+- Clone this repo
 
-## Open the console.html
+- Open a-sandbox.html in browser
 
-## Make sure the script in a-sandbox.html is set to the js file you wish to run on the console. The most recent script was "sum-of-array.js".
+- Open the console
 
-## Choose an algorithm's js file, copy in the algorithm challenge you wanna try from the list of js algorithm files in the root directory, or try a new one from another source! if you solve it, add it as a new js file inside of the Algorthims folder and make sure to comment it out and place it at the bottom of the file like the other ones
+- Set the script.js in the html file to any of the js files you wish to run in the console.
+
+
+# License
+MIT License
+# Contact
+
+If you have any questions, reach me:
+
+Github: [https://github.com/mevaldovi](https://github.com/mevaldovi)
+
+
+Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
+
