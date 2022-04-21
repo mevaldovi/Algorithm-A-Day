@@ -41,7 +41,7 @@ matchingPair = (string) => {
         return false;
     }
 }
-console.log('is it a matching pair? ' + matchingPair(stringTest));
+console.log('is it a matching pair? ' + matchingPair(stringTest2));
 
 
 
