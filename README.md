@@ -8,7 +8,7 @@
 - Clone down this repo 
 - Choose an algo to work through
 - include the name of the .js under "`<script>`" that you wish to test 
-- Open a-sandbox.html in default browser browser
+- Open "`a-sandbox.html`" in default browser
 
 # License
 N/A
@@ -17,7 +17,7 @@ N/A
 
 Github: [https://github.com/mevaldovi](https://github.com/mevaldovi)
 
-LinkedIn : [https://www.linkedin.com/in/marie-valdovinos-a616b21b1/](https://www.linkedin.com/in/marie-valdovinos-a616b21b1)
+LinkedIn : [https://www.linkedin.com/in/marie-valdovinos-a616b21b1](https://www.linkedin.com/in/marie-valdovinos-a616b21b1)
 
 
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
