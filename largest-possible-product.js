@@ -7,6 +7,6 @@ const sortedArr = nums.sort(function(a, b){
 });
 console.log(sortedArr); // now it's [2, 3, 5, 7, 9]
 console.log(sortedArr[sortedArr.length - 1] * sortedArr[sortedArr.length - 2])
-//take the element at position[4] which = 9 * element @ position[3] which = 7
+//take the element at index position[4] which = 9 * element @ index position[3] which = 7
 //multiple 9 * 7 = 63
 

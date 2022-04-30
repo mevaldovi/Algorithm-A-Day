@@ -1,23 +1,47 @@
 // **ACTUAL ALGO PROBLEM FROM MY TECHNICAL INTERVIEW WITH RAVEBIZZ**
 
-//write a function that checks if two provided strings are anagrams of each other; 
-//letter casing shouldn’t matter. Also, consider only characters, 
-//not spaces or punctuation. For example
-//function('finder', 'Friend')  --> trued
+//write a function that checks if two provided strings are anagrams of each other;
+//letter casing shouldn’t matter. Also, consider only characters, not spaces or punctuation. For example
+//function('finder', 'Friend')  --> true
 //function('hello', 'bye') --> false -------------**
 
-const string1 = "finder, Friend";
-const string2 = "finder";
+/* Driver Code*/
+let thing1 = ["t", "e", "s", "t"];
+let thing2 = ["t", "t", "e", "w"];
 
-const result = string1.filter(checkforAnagram);
-const result2 = string2.filter(checkforAnagram);
+function isAnagram(str1, str2) {
+  // Get lengths of both strings
+  let n1 = str1.length;
+  let n2 = str2.length;
 
-function checkforAnagram (str1, str2){
-    if (str1[i] === str2[i]){
-        //check to see if each character of str1 matches that of str2
-        console.log("it's an anagram");
+  // If length of both strings is not same,
+  // then they cannot be an anagram
+  if (n1 != n2) {
+    console.log("false");
+  }
+  // Sort both strings
+  str1.sort();
+  //note to self: sort is a string method first and foremost
+  str2.sort();
+
+  let anagramCount = 0;
+  let isAnAnagram = true;
+  // Compare sorted strings
+  for (let i = 0; i < n1; i++) {
+    console.log(str1[i], str2[i]);
+    //if each character in str1 does NOT match that of str2, log "false"
+    if (str1[i] !== str2[i]) {
+      isAnAnagram = false;
+      console.log("false");
     } else {
-        console.log("no anagram here");
-    }   
+      isAnAnagram;
+      anagramCount += 1;
+      console.log("true");
+    }
+    console.log(
+      `isAnAnagram??${isAnAnagram}!str1 ${str1} and str2 ${str2} have ${anagramCount} matching characters`
+    );
+  }
 }
-result(string1, string2);
+// Function Call
+isAnagram(thing1, thing2);
