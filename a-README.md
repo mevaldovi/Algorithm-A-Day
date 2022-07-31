@@ -19,9 +19,9 @@ N/A
 
 # Contact
 
-Github: [https://github.com/mevaldovi](https://github.com/mevaldovi)
+Github: [click here](https://github.com/mevaldovi)
 
-LinkedIn : [https://www.linkedin.com/in/marie-valdovinos-a616b21b1](https://www.linkedin.com/in/marie-valdovinos-a616b21b1)
+LinkedIn : [click here](https://www.linkedin.com/in/marie-valdovinos-a616b21b1)
 
 
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
